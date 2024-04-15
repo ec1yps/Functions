@@ -27,7 +27,7 @@ void main()
 	cout << "Сумма элементов массива: " << Sum(arr, n) << endl;
 	cout << "Среднее значение элементов массива: " << Avg(arr, n) << endl;
 	cout << "Минимальное значение массива: " << minValueIn(arr, n) << endl;
-	cout << "Макесимальное значение массива: " << maxValueIn(arr, n) << endl;
+	cout << "Максимальное значение массива: " << maxValueIn(arr, n) << endl;
 	shiftLeft(arr, n);
 	shiftRight(arr, n);
 }
