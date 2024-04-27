@@ -5,6 +5,10 @@
 #include "Sort.h"
 #include "Statistics.h"
 #include "Shifts.h"
+#include "Print.cpp"
+#include "Sort.cpp"
+#include "Statistics.cpp"
+#include "Shifts.cpp"
 
 #define I_ARR
 #define D_ARR
