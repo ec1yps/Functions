@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <FillRand.h>
 #include <Print.h>
 #include <Sort.h>
@@ -15,15 +15,15 @@ void main()
 	Print(arr, n);
 	Sort(arr, n);
 	Print(arr, n);
-	cout << "Ñóììà ýëåìåíòîâ ìàññèâà: " << Sum(arr, n) << endl;
-	cout << "Ñðåäíåå-àðèôìåòè÷åñêîå ýëåìåíòîâ ìàññèâà: " << Avg(arr, n) << endl;
-	cout << "Ìèíèìàëüíûé ýëåìåíò ìàññèâà: " << minValueIn(arr, n) << endl;
-	cout << "Ìàêñèìàëüíûé ýëåìåíò ìàññèâà: " << maxValueIn(arr, n) << endl;
+	cout << "Ð¡ÑƒÐ¼Ð¼Ð° ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << Sum(arr, n) << endl;
+	cout << "Ð¡Ñ€ÐµÐ´Ð½ÐµÐµ-Ð°Ñ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << Avg(arr, n) << endl;
+	cout << "ÐœÐ¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ñ‹Ð¹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚ Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << minValueIn(arr, n) << endl;
+	cout << "ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ñ‹Ð¹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚ Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << maxValueIn(arr, n) << endl;
 	int number_of_shifts;
-	cout << "Ââåäèòå êîëè÷åñòâî ñäâèãîâ âëåâî: "; cin >> number_of_shifts;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÐ´Ð²Ð¸Ð³Ð¾Ð² Ð²Ð»ÐµÐ²Ð¾: "; cin >> number_of_shifts;
 	shiftLeft(arr, n, number_of_shifts);
 	Print(arr, n);
-	cout << "Ââåäèòå êîëè÷åñòâî ñäâèãîâ âïðàâî: "; cin >> number_of_shifts;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÐ´Ð²Ð¸Ð³Ð¾Ð² Ð²Ð¿Ñ€Ð°Ð²Ð¾: "; cin >> number_of_shifts;
 	shiftRight(arr, n, number_of_shifts);
 	Print(arr, n);
 }
