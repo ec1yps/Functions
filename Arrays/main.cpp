@@ -5,17 +5,17 @@
 #include "Sort.h"
 #include "Statistics.h"
 #include "Shifts.h"
-#include "Print.cpp"
-#include "Sort.cpp"
-#include "Statistics.cpp"
-#include "Shifts.cpp"
+//#include "Print.cpp"
+//#include "Sort.cpp"
+//#include "Statistics.cpp"
+//#include "Shifts.cpp"
 
 #define I_ARR
-#define D_ARR
-#define C_ARR
-#define I_ARR_2
-#define D_ARR_2
-#define C_ARR_2
+//#define D_ARR
+//#define C_ARR
+//#define I_ARR_2
+//#define D_ARR_2
+//#define C_ARR_2
 
 void main()
 {
